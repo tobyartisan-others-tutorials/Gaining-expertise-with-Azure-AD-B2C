@@ -28,6 +28,13 @@ This project framework provides the following features:
 - mvn install
 - ...
 
+If you need to configure Git to use a different user for this repository, then you can run the following commands - note that the commands will need to re-run if you delete the repository:
+
+```
+git config --local user.name "You"
+git config --local user.email "you@mail.com"
+```
+
 ### Quickstart
 (Add steps to get up and running quickly)
 
